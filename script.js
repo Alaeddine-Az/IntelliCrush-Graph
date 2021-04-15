@@ -14,8 +14,8 @@ $(document).ready(function() {
   var POINT_COLOR = 'rgba(0,0,255,0.7)'; // eg `black` or `rgba(10,100,44,0.8)`
   var POINT_RADIUS = 5; // radius of each data point
 
-  var X_AXIS = 'Woi : '; // x-axis label, label in tooltip
-  var Y_AXIS = 'CAPEX : '; // y-axis label, label in tooltip
+  var X_AXIS = 'Woi '; // x-axis label, label in tooltip
+  var Y_AXIS = 'CAPEX '; // y-axis label, label in tooltip
 
   var SHOW_GRID = true; // `true` to show the grid, `false` to hide
 
