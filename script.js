@@ -4,18 +4,18 @@ $(document).ready(function() {
 
   var POINT_X = 'Woi'; // column name for x values in data.csv
   var POINT_X_PREFIX = ''; // prefix for x values, eg '$'
-  var POINT_X_POSTFIX = 'kwh/t'; // postfix for x values, eg '%'
+  var POINT_X_POSTFIX = ' kwh/t'; // postfix for x values, eg '%'
 
   var POINT_Y = 'CAPEX'; // column name for y values in data.csv
   var POINT_Y_PREFIX = ''; // prefix for x values, eg 'USD '
-  var POINT_Y_POSTFIX = '$M'; // postfix for x values, eg ' kg'
+  var POINT_Y_POSTFIX = ' $M'; // postfix for x values, eg ' kg'
 
   var POINT_NAME = 'Crusher1'; // point names that appear in tooltip
   var POINT_COLOR = 'rgba(0,0,255,0.7)'; // eg `black` or `rgba(10,100,44,0.8)`
   var POINT_RADIUS = 5; // radius of each data point
 
-  var X_AXIS = 'Operating '; // x-axis label, label in tooltip
-  var Y_AXIS = 'Capital '; // y-axis label, label in tooltip
+  var X_AXIS = 'Operating Work Index [kwh/t]'; // x-axis label, label in tooltip
+  var Y_AXIS = 'Capital Cost [$M]'; // y-axis label, label in tooltip
 
   var SHOW_GRID = true; // `true` to show the grid, `false` to hide
 
