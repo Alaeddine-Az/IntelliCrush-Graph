@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-  var TITLE = 'Income and Test Scores in Connecticut School Districts, 2009-13';
+  var TITLE = 'Optimisation results';
 
   var POINT_X = 'Woi'; // column name for x values in data.csv
   var POINT_X_PREFIX = '$'; // prefix for x values, eg '$'
