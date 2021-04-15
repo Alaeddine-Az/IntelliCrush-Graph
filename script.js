@@ -2,15 +2,15 @@ $(document).ready(function() {
 
   var TITLE = 'Income and Test Scores in Connecticut School Districts, 2009-13';
 
-  var POINT_X = 'income'; // column name for x values in data.csv
+  var POINT_X = 'Woi'; // column name for x values in data.csv
   var POINT_X_PREFIX = '$'; // prefix for x values, eg '$'
   var POINT_X_POSTFIX = ''; // postfix for x values, eg '%'
 
-  var POINT_Y = 'grades'; // column name for y values in data.csv
+  var POINT_Y = 'CAPEX'; // column name for y values in data.csv
   var POINT_Y_PREFIX = ''; // prefix for x values, eg 'USD '
   var POINT_Y_POSTFIX = ''; // postfix for x values, eg ' kg'
 
-  var POINT_NAME = 'district'; // point names that appear in tooltip
+  var POINT_NAME = 'Crusher1'; // point names that appear in tooltip
   var POINT_COLOR = 'rgba(0,0,255,0.7)'; // eg `black` or `rgba(10,100,44,0.8)`
   var POINT_RADIUS = 5; // radius of each data point
 
